@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/miStyle.css">
+    <title>Alcancia Digital de Ahorros</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/icono.jpg" class="icono" alt="icono">
+        <h1>Simulador de Ahorros y Retiros</h1>
+        <p>Una manera fácil para administrar tu dinero ¡y ahorrar! :D</p>
+    </header>
+
+    <section id="contenedor">
+        <div class="apartado">
+            <img src="img/perritoAhorrando.jpg" class="img-apartado" alt="perrito ahorrando">
+
+            <div class="contenido">
+                <h2>Ahorro</h2>
+                <p>Selecciona el monto que deseas agregar a tu alcancía</p><br>
+
+                <label>Monedas y billetes válidos:</label>
+                <div class="opciones">
+                    <label><input type="radio" name="monto" value="1"> $1</label>
+                    <label><input type="radio" name="monto" value="2"> $2</label>
+                    <label><input type="radio" name="monto" value="5"> $5</label>
+                    <label><input type="radio" name="monto" value="10"> $10</label>
+                    <label><input type="radio" name="monto" value="20"> $20</label>
+                    <label><input type="radio" name="monto" value="50"> $50</label>
+                    <label><input type="radio" name="monto" value="100"> $100</label>
+                    <label><input type="radio" name="monto" value="200"> $200</label>
+                </div>
+
+                <input id="btnAhorro" class="btn" type="submit" value="Insertar dinero">
+            </div>
+        </div>
+
+        <div class="apartado">
+            <img src="img/perritoRetirando.jpg" class="img-apartado" alt="perrito retirando">
+
+            <div class="contenido">
+                <h2>Retiro</h2>
+                <p>Ingresa la cantidad que deseas retirar:</p>
+                <input type="number" id="cantidadRetirada" placeholder="Cantidad a retirar">
+                <input id="btnRetiro" class="btn gris" type="submit" value="Retirar dinero">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contenedor2">
+        <h2>Movimientos realizados</h2>
+        
+        <div id="listadeMovimientos"></div>
+
+        <h2>Total registrado</h2>
+        <p id="totalRegistrado"></p>
+        <img src="img/perritoFeliz.jpg" class="icono-total" alt="perrito feliz">
+    </section>
+
+    <script src="js/miScript.js"></script>
+
+</body>
+
+</html>

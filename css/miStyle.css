@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #bac4d8;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background:#451f52;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+}
+h2{
+    text-align: center;
+}
+
+.icono{
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.apartado{
+    background: rgb(246, 245, 245);
+    width: 580px;
+    padding: 15px;
+    border-radius: 13px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.img-apartado {
+    width: 140px;
+    height: 140px;
+    border-radius: 13px;
+}
+
+.contenido {
+    flex: 1;
+}
+
+.contenido h2 {
+    margin: 0 0 10px;
+}
+
+.contenido p, label {
+    margin: 4px 5px;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    margin: 4px 10px 12px;
+}
+
+input[type="number"]{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+}
+
+.btn{
+    width: 90%;
+    padding: 12px;
+    background: #7c577a;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background: #643661;
+}
+
+.gris{
+    background: #888;
+}
+
+.gris:hover{
+    background: #6f6f6f;
+}
+
+#contenedor2{
+    width: 60%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.12);
+}
+
+#listadeMovimientos{
+    background: #eef1f7;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#listadeMovimientos table{
+    margin: 0 auto;
+}
+
+#totalRegistrado{
+    font-size: 22px;
+    font-weight: bold;
+    color: #c181c5;
+    text-align: center;
+}
+
+.icono-total{
+    height: 25%;
+    width: 25%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
